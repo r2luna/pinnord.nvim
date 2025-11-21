@@ -27,45 +27,45 @@ local colors = {
 local pinnord = {}
 
 pinnord.normal = {
-	a = { fg = colors.bg0, bg = colors.cyan, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.cyan, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.insert = {
-	a = { fg = colors.bg0, bg = colors.green, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.green, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.visual = {
-	a = { fg = colors.bg0, bg = colors.purple, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.purple, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.replace = {
-	a = { fg = colors.bg0, bg = colors.red, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.red, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.command = {
-	a = { fg = colors.bg0, bg = colors.yellow, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.yellow, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.terminal = {
-	a = { fg = colors.bg0, bg = colors.orange, gui = "bold" },
-	b = { fg = colors.fg2, bg = colors.statusbar_bg },
-	c = { fg = colors.fg2, bg = colors.statusbar_bg },
+	a = { fg = colors.orange, bg = "NONE", gui = "bold" },
+	b = { fg = colors.fg2, bg = "NONE" },
+	c = { fg = colors.fg2, bg = "NONE" },
 }
 
 pinnord.inactive = {
-	a = { fg = colors.fg3, bg = colors.statusbar_bg },
-	b = { fg = colors.fg3, bg = colors.statusbar_bg },
-	c = { fg = colors.fg3, bg = colors.statusbar_bg },
+	a = { fg = colors.fg3, bg = "NONE" },
+	b = { fg = colors.fg3, bg = "NONE" },
+	c = { fg = colors.fg3, bg = "NONE" },
 }
 
 return pinnord
