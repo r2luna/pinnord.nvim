@@ -62,7 +62,7 @@ hl("NormalFloat", { fg = colors.fg2, bg = colors.bg2 })
 hl("NormalNC", { fg = colors.fg2, bg = colors.bg0 }) -- Same as Normal for consistent background
 hl("EndOfBuffer", { fg = colors.bg0 })
 hl("WinSeparator", { fg = colors.border })
-hl("FloatBorder", { fg = colors.border, bg = colors.bg2 })
+hl("FloatBorder", { fg = colors.border, bg = "none" })
 
 -- Cursor
 hl("Cursor", { fg = colors.bg0, bg = colors.fg0 })
