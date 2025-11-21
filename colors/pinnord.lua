@@ -645,4 +645,21 @@ hl("@markup.raw.markdown_inline", { fg = colors.yellow })
 hl("@markup.link.label.markdown_inline", { fg = colors.purple })
 hl("@markup.link.url.markdown", { fg = colors.cyan, underline = true })
 
+-- Markview.nvim
+hl("MarkviewHeading1", { fg = colors.cyan, bg = "NONE", bold = true })
+hl("MarkviewHeading2", { fg = colors.cyan, bg = "NONE", bold = true })
+hl("MarkviewHeading3", { fg = colors.blue, bg = "NONE", bold = true })
+hl("MarkviewHeading4", { fg = colors.blue, bg = "NONE", bold = true })
+hl("MarkviewHeading5", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewHeading6", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewHeading1Sign", { fg = colors.cyan, bg = "NONE" })
+hl("MarkviewHeading2Sign", { fg = colors.cyan, bg = "NONE" })
+hl("MarkviewHeading3Sign", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewHeading4Sign", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewHeading5Sign", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewHeading6Sign", { fg = colors.blue, bg = "NONE" })
+hl("MarkviewCode", { fg = colors.yellow, bg = colors.bg1 })
+hl("MarkviewCodeBlock", { bg = colors.bg1 })
+hl("MarkviewInlineCode", { fg = colors.yellow, bg = colors.bg1 })
+
 return colors
