@@ -24,48 +24,48 @@ local colors = {
 	purple = "#b48ead",
 }
 
-local pinnord = {}
+local theme = {}
 
-pinnord.normal = {
+theme.normal = {
 	a = { fg = colors.cyan, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.insert = {
+theme.insert = {
 	a = { fg = colors.green, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.visual = {
+theme.visual = {
 	a = { fg = colors.purple, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.replace = {
+theme.replace = {
 	a = { fg = colors.red, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.command = {
+theme.command = {
 	a = { fg = colors.yellow, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.terminal = {
+theme.terminal = {
 	a = { fg = colors.orange, bg = "NONE", gui = "bold" },
 	b = { fg = colors.fg2, bg = "NONE" },
 	c = { fg = colors.fg2, bg = "NONE" },
 }
 
-pinnord.inactive = {
+theme.inactive = {
 	a = { fg = colors.fg3, bg = "NONE" },
 	b = { fg = colors.fg3, bg = "NONE" },
 	c = { fg = colors.fg3, bg = "NONE" },
 }
 
-return pinnord
+return theme
