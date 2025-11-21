@@ -4,9 +4,9 @@ Neovim color scheme based on the VSCode theme inspired by [Nord](https://marketp
 
 ## Preview
 
-![Pinnord Preview 1](assets/image1.jpg)
+![Pinnord Preview 1](assets/image1.png)
 
-![Pinnord Preview 2](assets/image2.jpg)
+![Pinnord Preview 2](assets/image2.png)
 
 ## Installation
 
