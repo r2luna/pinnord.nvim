@@ -662,4 +662,12 @@ hl("MarkviewCode", { fg = colors.yellow, bg = colors.bg1 })
 hl("MarkviewCodeBlock", { bg = colors.bg1 })
 hl("MarkviewInlineCode", { fg = colors.yellow, bg = colors.bg1 })
 
+-- Markview heading background groups
+hl("markdown.headings.1.markdown", { fg = colors.cyan, bg = "NONE", bold = true })
+hl("markdown.headings.2.markdown", { fg = colors.cyan, bg = "NONE", bold = true })
+hl("markdown.headings.3.markdown", { fg = colors.blue, bg = "NONE", bold = true })
+hl("markdown.headings.4.markdown", { fg = colors.blue, bg = "NONE", bold = true })
+hl("markdown.headings.5.markdown", { fg = colors.blue, bg = "NONE" })
+hl("markdown.headings.6.markdown", { fg = colors.blue, bg = "NONE" })
+
 return colors
