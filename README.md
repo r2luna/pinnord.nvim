@@ -15,7 +15,7 @@ Neovim color scheme based on the VSCode theme inspired by [Nord](https://marketp
 #### Packer
 ```lua
 use {
-  'adibhanna/pinnord.nvim',
+  'r2luna/pinnord.nvim',
   config = function()
     vim.cmd([[colorscheme pinnord]])
   end
@@ -25,7 +25,7 @@ use {
 #### Lazy.nvim
 ```lua
 {
-  'adibhanna/pinnord.nvim',
+  'r2luna/pinnord.nvim',
   priority = 1000,
   config = function()
     vim.cmd([[colorscheme pinnord]])
@@ -35,7 +35,7 @@ use {
 
 #### vim-plug
 ```vim
-Plug 'adibhanna/pinnord.nvim'
+Plug 'r2luna/pinnord.nvim'
 colorscheme pinnord
 ```
 
