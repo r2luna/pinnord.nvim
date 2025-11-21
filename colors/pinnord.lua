@@ -13,7 +13,7 @@ local colors = {
 	bg5 = "#4c566a", -- button.secondaryBackground
 
 	-- Custom colors
-	statusbar_bg = "#2D3441", -- mini.nvim statusline background
+	statusbar_bg = "#1c212a", -- mini.nvim statusline background
 
 	-- Foreground colors
 	fg0 = "#eceff4", -- editorCursor.foreground, active foreground

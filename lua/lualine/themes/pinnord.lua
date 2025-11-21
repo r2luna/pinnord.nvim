@@ -7,7 +7,7 @@ local colors = {
 	bg1 = "#14171d",
 	bg2 = "#292e39",
 	bg4 = "#434c5e",
-	statusbar_bg = "#2D3441",
+	statusbar_bg = "#1c212a",
 
 	-- Foreground colors
 	fg0 = "#eceff4",
@@ -27,45 +27,45 @@ local colors = {
 local theme = {}
 
 theme.normal = {
-	a = { fg = colors.cyan, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.cyan, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.insert = {
-	a = { fg = colors.green, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.green, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.visual = {
-	a = { fg = colors.purple, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.purple, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.replace = {
-	a = { fg = colors.red, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.red, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.command = {
-	a = { fg = colors.yellow, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.yellow, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.terminal = {
-	a = { fg = colors.orange, bg = "NONE", gui = "bold" },
-	b = { fg = colors.fg2, bg = "NONE" },
-	c = { fg = colors.fg2, bg = "NONE" },
+	a = { fg = colors.orange, bg = colors.statusbar_bg, gui = "bold" },
+	b = { fg = colors.fg2, bg = colors.statusbar_bg },
+	c = { fg = colors.fg2, bg = colors.statusbar_bg },
 }
 
 theme.inactive = {
-	a = { fg = colors.fg3, bg = "NONE" },
-	b = { fg = colors.fg3, bg = "NONE" },
-	c = { fg = colors.fg3, bg = "NONE" },
+	a = { fg = colors.fg3, bg = colors.statusbar_bg },
+	b = { fg = colors.fg3, bg = colors.statusbar_bg },
+	c = { fg = colors.fg3, bg = colors.statusbar_bg },
 }
 
 return theme
