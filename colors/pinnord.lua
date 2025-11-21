@@ -52,7 +52,7 @@ if vim.fn.exists("syntax_on") then
 end
 
 -- Set background and foreground
-vim.g.colors_name = "pinguim"
+vim.g.colors_name = "pinnord"
 vim.o.background = "dark"
 vim.o.termguicolors = true
 
@@ -614,3 +614,5 @@ hl("SnacksMatching", { fg = colors.cyan })
 hl("SnacksCounter", { fg = colors.fg3, bg = colors.bg0 })
 hl("SnacksPrompt", { fg = colors.fg2, bg = colors.bg0 })
 hl("SnacksPromptPrefix", { fg = colors.cyan, bg = colors.bg0 })
+
+return colors
