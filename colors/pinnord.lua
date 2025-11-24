@@ -633,7 +633,7 @@ hl("markdownLink", { fg = colors.purple })
 hl("markdownLinkText", { fg = colors.purple })
 
 -- Treesitter markdown highlights
-hl("@markup.heading.1.markdown", { fg = colors.cyan, bold = true })
+hl("@markup.heading.1.markdown", { fg = colors.fg2, bold = true, bg = colors.none })
 hl("@markup.heading.2.markdown", { fg = colors.cyan, bold = true })
 hl("@markup.heading.3.markdown", { fg = colors.blue, bold = true })
 hl("@markup.heading.4.markdown", { fg = colors.blue, bold = true })
@@ -646,7 +646,7 @@ hl("@markup.link.label.markdown_inline", { fg = colors.purple })
 hl("@markup.link.url.markdown", { fg = colors.cyan, underline = true })
 
 -- Markview.nvim
-hl("MarkviewHeading1", { fg = colors.cyan, bg = "NONE", bold = true })
+hl("MarkviewHeading1", { fg = colors.fg2, bg = colors.bg4, bold = true })
 hl("MarkviewHeading2", { fg = colors.cyan, bg = "NONE", bold = true })
 hl("MarkviewHeading3", { fg = colors.blue, bg = "NONE", bold = true })
 hl("MarkviewHeading4", { fg = colors.blue, bg = "NONE", bold = true })
