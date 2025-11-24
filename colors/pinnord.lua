@@ -670,4 +670,7 @@ hl("markdown.headings.4.markdown", { fg = colors.blue, bg = "NONE", bold = true 
 hl("markdown.headings.5.markdown", { fg = colors.blue, bg = "NONE" })
 hl("markdown.headings.6.markdown", { fg = colors.blue, bg = "NONE" })
 
+-- HTML/PHP
+hl("htmlError", { fg = colors.fg2, bg = "NONE" })
+
 return colors
