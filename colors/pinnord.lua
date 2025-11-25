@@ -364,7 +364,7 @@ hl("WhichKey", { fg = colors.cyan })
 hl("WhichKeyGroup", { fg = colors.blue })
 hl("WhichKeySeparator", { fg = colors.fg4 })
 hl("WhichKeyDesc", { fg = colors.fg2 })
-hl("WhichKeyFloat", { bg = colors.bg2 })
+hl("WhichKeyFloat", { bg = colors.bg0 })
 
 -- Cmp
 hl("CmpItemAbbr", { fg = colors.fg2 })
