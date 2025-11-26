@@ -360,14 +360,14 @@ hl("TelescopeSelectionCaret", { fg = colors.cyan })
 hl("TelescopeMatching", { fg = colors.cyan })
 
 -- WhichKey
-hl("WhichKey", { fg = colors.cyan })
-hl("WhichKeyGroup", { fg = colors.blue })
-hl("WhichKeySeparator", { fg = colors.fg4 })
-hl("WhichKeyDesc", { fg = colors.fg2 })
-hl("WhichKeyFloat", { bg = "NONE" })
-hl("WhichKeyNormal", { bg = "NONE" })
-hl("WhichKeyBorder", { fg = colors.fg4, bg = "NONE" })
-hl("WhichKeyTitle", { fg = colors.cyan, bg = "NONE" })
+hl("WhichKey", { fg = colors.cyan, bg = colors.bg0 })
+-- hl("WhichKeyGroup", { fg = colors.blue })
+-- hl("WhichKeySeparator", { fg = colors.fg4 })
+-- hl("WhichKeyDesc", { fg = colors.fg2 })
+-- hl("WhichKeyFloat", { bg = "NONE" })
+-- hl("WhichKeyNormal", { bg = "NONE" })
+-- hl("WhichKeyBorder", { fg = colors.fg4, bg = "NONE" })
+-- hl("WhichKeyTitle", { fg = colors.cyan, bg = "NONE" })
 
 -- Cmp
 hl("CmpItemAbbr", { fg = colors.fg2 })
