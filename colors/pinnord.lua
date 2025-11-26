@@ -268,9 +268,9 @@ hl("@text.diff.add", { link = "DiffAdd" })
 hl("@text.diff.delete", { link = "DiffDelete" })
 
 -- LSP highlights
-hl("LspReferenceText", { bg = colors.blue_bright, blend = 80 })
-hl("LspReferenceRead", { bg = colors.blue_bright, blend = 80 })
-hl("LspReferenceWrite", { bg = colors.blue_bright, blend = 80 })
+hl("LspReferenceText", { bg = colors.blue, blend = 80 })
+hl("LspReferenceRead", { bg = colors.blue, blend = 80 })
+hl("LspReferenceWrite", { bg = colors.blue, blend = 80 })
 
 hl("DiagnosticError", { fg = colors.red })
 hl("DiagnosticWarn", { fg = colors.yellow })
@@ -365,6 +365,9 @@ hl("WhichKeyGroup", { fg = colors.blue })
 hl("WhichKeySeparator", { fg = colors.fg4 })
 hl("WhichKeyDesc", { fg = colors.fg2 })
 hl("WhichKeyFloat", { bg = "NONE" })
+hl("WhichKeyNormal", { bg = "NONE" })
+hl("WhichKeyBorder", { fg = colors.fg4, bg = "NONE" })
+hl("WhichKeyTitle", { fg = colors.cyan, bg = "NONE" })
 
 -- Cmp
 hl("CmpItemAbbr", { fg = colors.fg2 })
