@@ -361,13 +361,13 @@ hl("TelescopeMatching", { fg = colors.cyan })
 
 -- WhichKey
 hl("WhichKey", { fg = colors.cyan, bg = colors.bg0 })
--- hl("WhichKeyGroup", { fg = colors.blue })
--- hl("WhichKeySeparator", { fg = colors.fg4 })
--- hl("WhichKeyDesc", { fg = colors.fg2 })
--- hl("WhichKeyFloat", { bg = "NONE" })
--- hl("WhichKeyNormal", { bg = "NONE" })
--- hl("WhichKeyBorder", { fg = colors.fg4, bg = "NONE" })
--- hl("WhichKeyTitle", { fg = colors.cyan, bg = "NONE" })
+hl("WhichKeyGroup", { fg = colors.blue, bg = colors.bg0 })
+hl("WhichKeySeparator", { fg = colors.fg4, bg = colors.bg0 })
+hl("WhichKeyDesc", { fg = colors.fg2 , bg = colors.bg0 })
+hl("WhichKeyFloat", { bg = colors.bg0 })
+hl("WhichKeyNormal", { bg = colors.bg0 })
+hl("WhichKeyBorder", { fg = colors.fg4, bg = colors.bg0 })
+hl("WhichKeyTitle", { fg = colors.cyan, bg = colors.bg0 })
 
 -- Cmp
 hl("CmpItemAbbr", { fg = colors.fg2 })
