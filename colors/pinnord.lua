@@ -268,9 +268,9 @@ hl("@text.diff.add", { link = "DiffAdd" })
 hl("@text.diff.delete", { link = "DiffDelete" })
 
 -- LSP highlights
-hl("LspReferenceText", { bg = colors.blue, blend = 80 })
-hl("LspReferenceRead", { bg = colors.blue, blend = 80 })
-hl("LspReferenceWrite", { bg = colors.blue, blend = 80 })
+hl("LspReferenceText", { bg = colors.bg5, blend = 80 })
+hl("LspReferenceRead", { bg = colors.bg5, blend = 80 })
+hl("LspReferenceWrite", { bg = colors.bg5, blend = 80 })
 
 hl("DiagnosticError", { fg = colors.red })
 hl("DiagnosticWarn", { fg = colors.yellow })
