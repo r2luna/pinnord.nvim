@@ -58,7 +58,7 @@ vim.o.termguicolors = true
 
 -- Base highlights
 hl("Normal", { fg = colors.fg2, bg = colors.bg0 })
-hl("NormalFloat", { fg = colors.fg2, bg = colors.bg2 })
+hl("NormalFloat", { fg = colors.fg2, bg = colors.bg0 })
 hl("NormalNC", { fg = colors.fg2, bg = colors.bg0 }) -- Same as Normal for consistent background
 hl("EndOfBuffer", { fg = colors.bg0 })
 hl("WinSeparator", { fg = colors.border })
