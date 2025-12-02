@@ -165,7 +165,7 @@ hl("Define", { fg = colors.cyan })
 hl("Macro", { fg = colors.cyan })
 hl("PreCondit", { fg = colors.cyan })
 
-hl("Type", { fg = colors.cyan })
+hl("Type", { fg = colors.purple })
 hl("StorageClass", { fg = colors.cyan })
 hl("Structure", { fg = colors.cyan })
 hl("Typedef", { fg = colors.cyan })
@@ -225,7 +225,7 @@ hl("@variable.parameter", { fg = colors.fg2 })
 hl("@variable.member", { fg = colors.fg2 })
 
 hl("@type", { link = "Type" })
-hl("@type.builtin", { fg = colors.cyan })
+hl("@type.builtin", { fg = colors.purple })
 hl("@type.definition", { fg = colors.cyan })
 hl("@type.qualifier", { fg = colors.cyan })
 
