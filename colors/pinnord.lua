@@ -676,11 +676,14 @@ hl("markdown.headings.6.markdown", { fg = colors.blue, bg = "NONE" })
 -- HTML/PHP
 hl("htmlError", { fg = colors.fg2, bg = "NONE" })
 
+-- Substitute (used by Flash.nvim as default for labels)
+hl("Substitute", { fg = colors.bg0, bg = colors.cyan, bold = true })
+
 -- Flash.nvim
 hl("FlashBackdrop", { fg = colors.fg4 })
 hl("FlashMatch", { fg = colors.bg0, bg = colors.orange })
 hl("FlashCurrent", { fg = colors.bg0, bg = colors.yellow, bold = true })
-hl("FlashLabel", { fg = colors.bg0, bg = colors.cyan, bold = true })
+hl("FlashLabel", { fg = "#1C212A", bg = "#88c0d0", bold = true })
 hl("FlashPrompt", { fg = colors.fg2, bg = colors.bg0 })
 hl("FlashPromptIcon", { fg = colors.cyan })
 hl("FlashCursor", { fg = colors.bg0, bg = colors.fg0 })
