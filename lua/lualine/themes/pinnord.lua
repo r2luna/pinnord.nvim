@@ -2,12 +2,12 @@
 -- Based on the VSCode theme inspired by Nord and Nord Deep
 
 local colors = {
-	-- Base colors
-	bg0 = "#1C212A",
-	bg1 = "#14171d",
-	bg2 = "#292e39",
-	bg4 = "#434c5e",
-	statusbar_bg = "#1c212a",
+	-- Base colors (deep ocean blue)
+	bg0 = "#1a1f2e",
+	bg1 = "#141821",
+	bg2 = "#272d3d",
+	bg4 = "#414b5e",
+	statusbar_bg = "#1a1f2e",
 
 	-- Foreground colors
 	fg0 = "#eceff4",
