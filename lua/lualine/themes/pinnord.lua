@@ -3,11 +3,11 @@
 
 local colors = {
 	-- Base colors (dark gray with subtle blue)
-	bg0 = "#1a1c21",
+	bg0 = "#0A0A0A",
 	bg1 = "#14161a",
 	bg2 = "#25282e",
 	bg4 = "#3e424b",
-	statusbar_bg = "#1a1c21",
+	statusbar_bg = "#0A0A0A",
 
 	-- Foreground colors
 	fg0 = "#eceff4",

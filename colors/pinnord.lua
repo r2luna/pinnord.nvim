@@ -5,7 +5,7 @@
 -- Color palette
 local colors = {
 	-- Base colors (dark gray with subtle blue)
-	bg0 = "#1a1c21", -- editor.background (matching buffer and explorer)
+	bg0 = "#0A0A0A", -- editor.background (matching buffer and explorer)
 	bg1 = "#14161a", -- panel.background, terminal.background
 	bg2 = "#25282e", -- dropdown.background, editorHoverWidget.background
 	bg3 = "#2a2d34", -- commandCenter.activeBackground
@@ -13,7 +13,7 @@ local colors = {
 	bg5 = "#484c56", -- button.secondaryBackground
 
 	-- Custom colors
-	statusbar_bg = "#1a1c21", -- mini.nvim statusline background
+	statusbar_bg = "#0A0A0A", -- mini.nvim statusline background
 
 	-- Foreground colors
 	fg0 = "#eceff4", -- editorCursor.foreground, active foreground
